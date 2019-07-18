@@ -1,0 +1,6 @@
+num = int(input('Digite um numero: '))
+ant = int(num - 1)
+suc = int(num + 1)
+print('O valor digitado foi {}'.format(num))
+print('Seu sucessor é {}'.format(suc))
+print('Seu antecessor é {}'.format(ant))
